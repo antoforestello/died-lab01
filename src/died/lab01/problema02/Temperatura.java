@@ -26,6 +26,12 @@ public class Temperatura {
 		return salida;
 	}
 	
+	public Escala getEscala() {
+		return escala;
+	}
+	public void setEscala(Escala escala) {
+		this.escala = escala;
+	}
 	public double asCelcius() {
 		double resultado; 
 		if(this.escala == Escala.CELCIUS) {
